@@ -1,0 +1,93 @@
+body {
+  background-image: url("https://images.pexels.com/photos/4792345/pexels-photo-4792345.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+  background-position: center;
+}
+
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+} */
+
+.tic-tac {
+  width: 450px;
+  height: 450px;
+  border: 1px solid rgb(92, 92, 92);
+  margin: 50px auto;
+}
+
+.t-grid {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #000;
+  float: left;
+  box-sizing: border-box;
+  font-size: 94px;
+  text-align: center;
+  font-weight: 100;
+  background-color: azure;
+}
+
+.btn {
+  margin-top: 30px;
+  width: 90px;
+  height: 40px;
+  margin: 40 auto;
+  margin-left: 180px;
+  font-size: 20px;
+  background-color: rgb(98, 175, 98);
+  color: #fff;
+  border: none;
+  border-radius: 33px;
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Параметры тени */
+}
+
+.btn:hover {
+  box-shadow: none;
+}
+
+.btnShow {
+  background-color: rgb(98, 175, 98);
+  color: #fff;
+  border: none;
+  border-radius: 33px;
+  margin-left: 850px;
+  margin-top: 100px;
+  font-size: 25px;
+  font-weight: 700;
+  width: 35px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Параметры тени */
+  outline: none;
+}
+
+.btnShow:hover {
+  transform: rotate(360deg);
+  transition: 0.5s;
+}
+
+/* .logo {
+  color: aqua;
+} */
+
+/* @keyframes btn-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
